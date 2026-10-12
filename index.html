@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MP Interior Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My personal portfolio">
+    <meta name="author" content="Marina Prohens">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Carrusel al clicar las imágenes-->
+    <div class="overlay">
+        <div class="slideshow">
+            <span class="btn_cerrar">&times;</span>
+            <div class="botones adelante">
+                <i class="mdi mdi-chevron-right"></i>
+            </div>
+            <div class="botones atras">
+                <i class="mdi mdi-chevron-left"></i>
+            </div>
+            <img src="" alt="" id="img_slideshow">
+            <div class="letras">
+                <p class="nameimg" alt="" id="nameslideshow"></p>
+            </div>
+        </div>
+    </div>
+    
+    <!--Cabecera de la página web-->
+    <header id="hero">
+        <a href="#main-content" class="button skip">Skip to Main Content</a>
+        <div id="containernav">
+            <div id="especial"></div>
+            <div class="logo">
+                <a href="http://prohensmarina.com/">marina prohens</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" class="portfolio">
+        <div class="container">
+            <!--Título-->
+            <section class="title-portfolio">
+                <h1 class="garbanzo"><span>GALLERY</span></h1>
+                <h2 class="garbanzo1">A personal archive of academic illustrations and imagery</h2>
+            </section>
+
+            <!--Lista de imágenes del portfolio (Generada dinámicamente) -->
+            <section class="masonry-container">
+                <!-- Se rellenará automáticamente desde main.js -->
+            </section>
+        </div>
+    </main>
+
+    <!--Pie de página-->
+    <footer></footer>
+
+    <!--JS-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
